@@ -5,15 +5,13 @@ Data Structure Project of EECE 2024 that contains some local egyptian card games
 3. **الشايب**
 4. **BlackJack/21**
 5. **Solitaire**
-
+---
 ## Members:
 - Amir Ahmed Hassan
 - Ahmed Sayed Bakry
 - Omnia Ehab
+---
 # Algorithm and description: 
-
-
-# game 1 =  ***كومي***
 cards: 
 0 = Joker ,               Unicode = 1F0BF
 1 to 10 = numbers ,       Unicode = 1F0B1 - 1F0BA
@@ -27,15 +25,13 @@ global functions needed :
 
 - function that takes number as input and returns a character unicode of the card
 
-
-
 ----------------------------------------
 
-game 1 = كومي
+# game 1 =  كومي
 
-classes:
+## classes:
 
-1- playing hand DS :
+### 1. playing hand DS :
 
 BST / (edit) AVL  tree 
 contains all cards in user hand with root = 6
@@ -58,8 +54,8 @@ displayhand: shows the content of hand (tree traversal)
 
 throwshand: throw all hand cards to score when game ends
 
-2 - Field 
-  DS type : Hash table of size 14 (0 to 13) 
+### 2. Field 
+DS type : Hash table of size 14 (0 to 13) 
 
 functions:
 bool:
@@ -74,7 +70,7 @@ fieldstart : adds 4 random different numbers to field
 fieldremove(player*): removes all numbers from hash table and stores them in player score
 
 
-3-playing deck
+### 3. playing deck
 DS: 
 HashTable with linked list collision managing, size = 13, linked list initial size = 4
 
@@ -91,31 +87,33 @@ checks that set is not empty then
 checks if a random card is in the hash table, if yes, pulls it(aka deletes and returns it), if no generates another number
 
 
-class player :
+## class player :
+### members:
 name
 hand
 score list
 score int
 
-functions:
+### functions:
 
 reset
 
-class pc :
-
+## class pc :
+### members:
 hand 
 score list
 score int
 
-function
+### function
 
 reset
 
 AI (plays card that makes most benefit)
 
-class game :
+---
+## class game :
 
-members:
+### members:
 player player[3]
 deck
 pc
@@ -125,7 +123,7 @@ field
 gamover flag
 
 
-functions:
+### functions:
 void
 play()
 while(gameover) 
@@ -144,6 +142,7 @@ no? field add
 Jack? field empty -> score++ 
 turn--
 } 
+---
 checks hands
 checks deck
 sets gameoverflag
