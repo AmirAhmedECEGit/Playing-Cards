@@ -38,7 +38,7 @@ global functions needed :
 ### 1. playing hand DS :
 
 BST / (edit) AVL  tree 
-contains all cards in user hand with root = 6
+contains all cards in user hand
 
 functions:
 
@@ -217,7 +217,17 @@ ending game
 }
 
 
+- [x] Determine Plan
+- [ ] Create AVL tree DS
+- [ ] Create Playing Hand
+- [ ] Create Hash Table DS of size 13
+- [ ] Create Field
+- [ ] Create Hash Table DS of size 13 and linked list collision management
+- [ ] Create Deck
+- [ ] Create human player turn
+- [ ] Create AI player turn 
 ---
+
 
 
 
