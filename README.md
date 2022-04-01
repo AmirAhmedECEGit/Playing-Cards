@@ -11,19 +11,22 @@ Data Structure Project of EECE 2024 that contains some local egyptian card games
 - Ahmed Sayed Bakry
 - Omnia Ehab
 # Algorithm and description: 
+
+
+# game 1 =  ***كومي***
 cards: 
-0 = Joker , Unicode = 1F0BF
-1 to 10 = numbers , Unicode = 1F0B1 - 1F0BA
-11 = Queen , Unicode = 1F0BB
-12 = Jack , Unicode = 1F0BD
-13 = King , Unicode =1F0BE
+0 = Joker ,               Unicode = 1F0BF
+1 to 10 = numbers ,       Unicode = 1F0B1 - 1F0BA
+11 = Queen ,              Unicode = 1F0BB
+12 = Jack ,               Unicode = 1F0BD
+13 = King ,               Unicode =1F0BE
 
-
-functions needed : 
+global functions needed : 
 
 - function generating random number between 0 and 12 (1 to 13 in some games)
 
 - function that takes number as input and returns a character unicode of the card
+
 
 
 ----------------------------------------
