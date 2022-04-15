@@ -7,8 +7,12 @@ also if we used a variable "Cards_Count" to increment the during pushing and dec
 1- define the node class to be used in stack implementation*/
 class StackNode{
 public:		
-	int			data;
-	StackNode*	next;
+	int			Data;
+	StackNode*	Next;
+	StackNode(){
+	Data = 0;
+	Next = NULL;
+	}
 };
 // 2- define the stack class
 class CardStack{
@@ -31,8 +35,8 @@ bool isEmpty()
 	void push(int Card)
 {
     StackNode* New_Card = (StackNode*)malloc(sizeof(StackNode));
-	New_Card->data = Card;
-    New_Card->next = Top;
+	New_Card->Data = Card;
+    New_Card->Next = Top;
     Top = New_Card;
 }
 // 6- pop function
@@ -40,8 +44,8 @@ int pop()
 {
     if (isEmpty())	return 0;
     StackNode* temp = Top;
-    Top = Top->next;
-    int popped = temp->data;
+    Top = Top->Next;
+    int popped = temp->Data;
     free(temp);
     return popped;
 }
@@ -49,27 +53,17 @@ int pop()
 int peek()
 {
     if (isEmpty()) return 0;
-    return Top->data;
+    return Top->Data;
 }
 // 8- display stack to be able to check all cards in it manually
 	void DisplayCards()
 {
 	StackNode* temp = Top;
     while (temp != NULL) {
-        cout << temp->data << " ";
-        temp = temp->next;
+        cout << temp->Data << " ";
+        temp = temp->Next;
     }
 }
 
 };
 
-int main()
-{
-	CardStack amir;
-	amir.push(5);
-	amir.push(8);
-	amir.peek();
-	amir.pop();
-	amir.DisplayCards();
-	return 0;
-}
