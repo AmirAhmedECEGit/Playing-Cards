@@ -13,21 +13,23 @@ Data Structure Project of EECE 2024 that contains some local egyptian card games
 ---
 # Algorithm and description: 
 cards: 
-0 = Joker ,               Unicode = 1F0BF
+0 = NULL            
 
-1 to 10 = numbers ,       Unicode = 1F0B1 - 1F0BA
+1 to 10 = numbers 
 
-11 = Queen ,              Unicode = 1F0BB
+11 = Jack (الولد) 
 
-12 = Jack ,               Unicode = 1F0BD
+12 = Queen (البنت)
 
-13 = King ,               Unicode =1F0BE
+13 = King (الشايب)
 
 global functions needed : 
 
 - function generating random number between 0 and 12 (1 to 13 in some games)
 
-- function that takes number as input and returns a character unicode of the card
+- function that takes number or literal as input and convert it to card
+
+- function that outputs a decorated card shape infront of each number
 
 ----------------------------------------
 
