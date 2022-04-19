@@ -4,7 +4,7 @@
 3. Omnia Ehab
 
 # Kotshena
-we had the idea to create Kotshena then add the egyptian spice and
+we had the idea to create Kotshena then add the Egyptian spice and
 involve not only foreign game modes but also Egyptian games
 ------------------------------------------------------------------------------------------------------------
 1. Egyptian Basra
