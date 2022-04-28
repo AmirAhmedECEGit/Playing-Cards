@@ -1,8 +1,8 @@
 # Kotshena
 ## Names:
-امير احمد حسن محمد
-احمد سيد سكران بكري
-امنية ايهاب
+1. امير احمد حسن محمد
+2. احمد سيد سكران بكري
+3. امنية ايهاب
 important note:
 
 Main Code File is uploaded as "EgyptianCards.cpp"
