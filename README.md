@@ -10,8 +10,9 @@
 
 
 important note:
+Headers version folder contain the organized main file with its headers
 
-Main Code File is uploaded as "Basra.cpp" note that it can run on any online compiler or Visual studio, code blocks, and android c++ compilers !
+another version is Main Code File is uploaded as "Basra.cpp" note that it can run on any online compiler or Visual studio, code blocks, and android c++ compilers 
 
 A more organized version of code is uploaded on the "visual studio project" in folder called "Egyptian Basra", it uses headers and includes them
 
