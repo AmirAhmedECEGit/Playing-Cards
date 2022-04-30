@@ -30,3 +30,5 @@ A more organized version of code is uploaded on the "visual studio project" in f
 
 note:
 "Kotshena.pptx" The powerpoint presentation file that will be used on presentation day isa
+
+"KOTSHENA.mp4" The video on BB discussing our code running
