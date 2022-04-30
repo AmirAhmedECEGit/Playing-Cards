@@ -28,5 +28,5 @@ another version is Main Code File is uploaded as "Basra.cpp" note that it can ru
 
 A more organized version of code is uploaded on the "visual studio project" in folder called "Egyptian Basra", it uses headers and includes them
 
-The powerpoint presentation file that will be used on presentation day isa
-
+note:
+"Kotshena.pptx" The powerpoint presentation file that will be used on presentation day isa
