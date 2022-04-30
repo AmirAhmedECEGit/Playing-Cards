@@ -16,4 +16,3 @@ another version is Main Code File is uploaded as "Basra.cpp" note that it can ru
 
 A more organized version of code is uploaded on the "visual studio project" in folder called "Egyptian Basra", it uses headers and includes them
 
-Video is uploaded here "Team Kotshena.mp4" in repo and also via blackboard
